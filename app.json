@@ -1,15 +1,15 @@
 {
-    "name": "Queen_ALYA",
+    "name": "KING-PHANTOM",
     "description": "Simple WhatsApp Bot",
     "logo": "https://telegra.ph/file/b065f0f673cae5452c358.jpg",
-    "keywords": ["STAR-KING0", "ALYA", "Queen_ALYA"],
+    "keywords": ["KING_PHANTOM", "KING", "PHANTOM"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_ALYA",
+        "value": "KING-PHANTOM",
         "required": true
       },
   
@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://telegra.ph/file/b065f0f673cae5452c358.jpg",
+        "value": "https://telegra.ph/file/b065f0f673cae5452c258.jpg",
         "required": false
       },
   
@@ -35,17 +35,17 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://telegra.ph/file/b065f0f673cae5452c358.jpg"
+        "value": "https://telegra.ph/file/b065f0f673cae5452c258.jpg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "Queen_ALYA"
+        "value": "KING-PHANTOM"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
         "required": false,
-        "value": "Africa/Lagos"
+        "value": "Africa/South"
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
@@ -115,7 +115,7 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "Queen_ALYA",
+        "value": "KING-PHANTOM",
         "required": false
       },
       "PACK_AUTHER": {
