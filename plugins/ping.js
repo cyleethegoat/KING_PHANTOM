@@ -1,4 +1,4 @@
-const { smd } = require("../lib");
+/**const { smd } = require("../lib");
 const { runtime } = require("../lib"); // Assuming you have a runtime function for uptime
 
 smd(
