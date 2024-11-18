@@ -188,7 +188,7 @@ astro_patch.cmd(
 smd(
   {
     pattern: "ping",
-    react: "✨",
+    react: "🕥",
     desc: "Ping response with speed.",
     category: "misc",
     filename: __filename,
@@ -216,7 +216,8 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `*_Uptime of ${tlang().title}: ${runtime(process.uptime())}_*`
+        `𝚄𝙿𝚃𝙸𝙼𝙴 𝙾𝙵 𝙺𝙸𝙽𝙶 𝙿𝙷𝙰𝙽𝚃𝙾𝙼 𝙸𝚂: 
+        *${runtime(process.uptime())}*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
