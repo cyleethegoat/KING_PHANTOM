@@ -241,7 +241,7 @@ smd({
   *🐉 ꜰᴏʀᴋꜱ:* ${_0x44f98c.forks_count} forks
   *🐉 ᴀᴜᴛʜᴏʀ:* 𝙋𝙃𝘼𝙉𝙏𝙊𝙈 
   *🐉 ᴀʀɪꜱᴇᴅ ᴏɴ:* ${new Date(_0x44f98c.created_at).toLocaleDateString()}
-  *🐉 ʀᴇᴘᴏ:* _https://github.com/Phantom-kin/Cosmo-Hunter_
+  *🐉 ʀᴇᴘᴏ:* _https://github.com/Phantom-kin/King_Phantom_
   *🐉 ꜱᴄᴀɴ:* _${scan}_ ${Config.caption ? `\n\n${Config.caption}` : ""}
     `).trim();
 
