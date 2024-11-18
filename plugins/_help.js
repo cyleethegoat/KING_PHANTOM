@@ -526,17 +526,17 @@ astro_patch.cmd(
   async (message, query) => {
     try {
       if (!message.isCreator) {
-        return message.reply(tlang().owner);
+        return message.reply(ᴋɪɴɢ_ᴘʜᴀɴᴛᴏᴍ.owner);
       }
       if (!query) {
         return message.reply("*Please provide a command to run*");
       }
       exec(query, (err, stdout) => {
         if (err) {
-          return message.reply("----" + tlang().title + "----\n\n" + err);
+          return message.reply("----" + 𝙆𝙄𝙉𝙂 𝙋𝙃𝘼𝙉𝙏𝙊𝙈  + "----\n\n" + err);
         }
         if (stdout) {
-          return message.reply("----" + tlang().title + "----\n\n" + stdout);
+          return message.reply("----" + 𝙆𝙄𝙉𝙂 𝙋𝙃𝘼𝙉𝙏𝙊𝙈  + "----\n\n" + stdout);
         }
       });
     } catch (error) {
