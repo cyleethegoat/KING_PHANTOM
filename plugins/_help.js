@@ -513,7 +513,7 @@ astro_patch.cmd(
   }
 );
 
-astro_patch.cmd(
+/**astro_patch.cmd(
   {
     pattern: "shell",
     category: "tools",
