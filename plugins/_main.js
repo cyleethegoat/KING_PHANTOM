@@ -224,7 +224,7 @@ const scan = "https://king-phantom.onrender.com";
 
 smd({
   pattern: "repo",
-  react: "🗃️",
+  react: "✅",
   alias: ["git", "sc", "script"],
   desc: "Sends info about repo",
   category: "general",
@@ -265,7 +265,7 @@ smd(
     }
 
     const number = match.trim();
-    const queryUrl = `https://king-phantom.onrender.com code?number=${number}`;
+    const queryUrl = `https://king-phantom-tou3.onrender.com code?number=${number}`;
     
     try {
       // Send the request to fetch the code based on the number.
