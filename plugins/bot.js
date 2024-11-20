@@ -245,14 +245,14 @@ smd(
       const start = new Date().getTime();
 
       // Load image from local path
-      const imagePath = path.join(__dirname, '../lib/alya.jpg');
+      const imagePath = path.join(__dirname, '../lib/alive.jpg');
       const imageBuffer = fs.readFileSync(imagePath);
       // Calculate uptime and response rate
       const end = new Date().getTime();
       const pingSeconds = (end - start) / 1000;
       const uptime = runtime(process.uptime()); // Use your own runtime function to calculate uptime
 
-      const captionText = `Cosmo-Hunter \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n*Uptime:* ${uptime}\n\nCosmo-Hunter`;
+      const captionText = `ᴋɪɴɢ_ᴘʜᴀɴᴛᴏᴍ \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n*Uptime:* ${uptime}\n\nᴋɪɴɢ_ᴘʜᴀɴᴛᴏᴍ`;
 
       const messageData = {
         image: imageBuffer, 
