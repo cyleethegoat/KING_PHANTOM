@@ -31,8 +31,8 @@ smd(
 ➮𝞒𝙐𝞜𝙏𝞘𝞛𝞢 - ${runtime(process.uptime())} 
 ➮𝘿𝞓𝙏𝞢 - ${message.date} 
 ➮𝙏𝞘𝞛𝞢 - ${message.time} 
-➮𝘾𝞢𝞗- *𝕻𝖍𝖆𝖓𝖙𝖔𝖒*
-➮𝘾𝞗-𝙁𝞗𝙐𝞜𝘿𝞢𝞒𝙎- 𝞘𝞑𝞒𝞓𝞖𝞘𝞛 𝞓𝘿𝞓𝞛𝙎, 𝞑𝞓𝞒𝞓𝞙𝞓 𝞑𝞢𝙂𝞓 𝞓𝞜𝘿 𝞠𝞒𝞢𝞦𝙕𝙔
+➮𝘾𝞢𝞗- _*ᴘʜᴀɴᴛᴏᴍ*_
+➮𝘾𝞗-𝙁𝞗𝙐𝞜𝘿𝞢𝞒𝙎- *IBRAHIM ADAMS, BARAKA BEGA, PREXZY AND KING HAKI*
 ➮𝞗𝙒𝞜𝞢𝞒 - ${Config.ownername} 
 ➮𝞜𝙐𝞛𝞑𝞢𝞒 - ${owner.split(",")[0]} 
 ➮𝞛𝞢𝞛𝞗𝞒𝙔 - ${formatp(os.totalmem() - os.freemem())} 
@@ -217,7 +217,7 @@ astro_patch.cmd(
     try {
       message.reply(
         `𝚄𝙿𝚃𝙸𝙼𝙴 𝙾𝙵 𝙺𝙸𝙽𝙶 𝙿𝙷𝙰𝙽𝚃𝙾𝙼 𝙸𝚂
-        ${tlang().title}: ${runtime(process.uptime())}_*`
+        ${runtime(process.uptime())}_*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
