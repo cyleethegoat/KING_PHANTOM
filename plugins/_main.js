@@ -220,7 +220,7 @@ async function getDateTime() {
     time: _0x144a84
   };
 }
-const scan = "https://king-phantom.onrender.com";
+const scan = "https://king-phantom-tou3.onrender.com";
 
 smd({
   pattern: "repo",
