@@ -47,5 +47,7 @@
 
  **THANKS TO**
  
- # STAR-KING0
- # HAKI
+ # Ibrahim Adams 
+ # King Haki
+ # Baraka Bega 
+ # Prexzy
