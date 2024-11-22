@@ -56,7 +56,7 @@ astro_patch.smd({
 
     // List commands by category
     for (const category in commandCategories) {
-      menuContent += `${tiny(category)}╭═══════════════⊷❍\n`; // Decorative line with category inside
+      menuContent += `${tiny(category)}╭═════════════⊷❍\n`; // Decorative line with category inside
       commandCategories[category].forEach(cmd => {
         menuContent += `┊❍${fancytext(cmd, 1)}\n`; // Changed emoji here
       });
