@@ -216,7 +216,7 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `𝚄𝙿𝚃𝙸𝙼𝙴 𝙾𝙵 𝙺𝙸𝙽𝙶 𝙿𝙷𝙰𝙽𝚃𝙾𝙼: ${runtime(process.uptime())}_*`
+        `ᴷᴵᴺᴳ ᴾᴴᴬᴺᵀᴼᴹ ᴴᴬˢ ᴮᴱᴱᴺ ᴿᵁᴺᴺᴵᴺᴳ ˢᴵᴺᶜᴱ: ${runtime(process.uptime())}`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
