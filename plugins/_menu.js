@@ -45,13 +45,16 @@ astro_patch.smd({
     });
 
     // Classy menu content
-    let menuContent = `✨ *${Config.botname}* ✨\n`;
-    menuContent += `*Owner Name*: */KING PHANTOM*/\n`;
-    menuContent += `*Uptime*: ${runtime(process.uptime())}\n`;
-    menuContent += `*Date*: ${currentDate}\n`;
-    menuContent += `*THANKS TO*: BARAKA BEGA\n`;
-    menuContent += `👋 😄 ${greeting}\n\n`;
-
+    let menuContent = `✨ *${Config.botname}* ✨\n`;                                           
+                  ╭═════════════⊷
+    menuContent +=┊ `*Owner Name*: */KING PHANTOM*/\n`;
+    menuContent +=┊ `*Uptime*: ${runtime(process.uptime())}\n`;
+    menuContent +=┊ `*Date*: ${currentDate}\n`;
+    menuContent +=┊ `*THANKS TO*: BARAKA BEGA*\n`;
+    menuContent +=┊ `👋😄 ${greeting}\n\n`;
+                  ┊
+                  ┊   `ᴹᴬᴰᴱ ᴮʸ ᵀᴴᴱ ᴾᴴᴬᴺᵀᴼᴹ ᴺᴬᵀᴵᴼᴺ👑`
+                  ═════════════════
     menuContent += readmore + "\n\n"; // Adding readmore before commands
 
     // List commands by category
@@ -60,7 +63,7 @@ astro_patch.smd({
       commandCategories[category].forEach(cmd => {
         menuContent += `┊❍${fancytext(cmd, 1)}\n`; // Changed emoji here
       });
-      menuContent += `CONTINUE\n${readmore}\n\n`; // Adding readmore with 👇 after each category
+      menuContent += `𝙲𝙾𝙽𝚃𝙸𝙽𝚄𝙴\n${readmore}\n\n`; // Adding readmore with 👇 after each category
     }
 
     // Prepare the final message content
