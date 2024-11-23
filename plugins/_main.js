@@ -237,12 +237,12 @@ smd({
     let _0x1c73f9 = (`
 ᴋɪɴɢ ᴘʜᴀɴᴛᴏᴍ ᴀ ꜱɪᴍᴘʟᴇ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴘʜᴀɴᴛᴏᴍ ʜɪᴍꜱᴇʟꜰ ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ ᴘʜᴀɴᴛᴏᴍ.
 
-  *🐉 ꜱᴛᴀʀꜱ:* ${_0x44f98c.stargazers_count} stars
-  *🐉 ꜰᴏʀᴋꜱ:* ${_0x44f98c.forks_count} forks
-  *🐉 ᴀᴜᴛʜᴏʀ:* 𝙋𝙃𝘼𝙉𝙏𝙊𝙈 
-  *🐉 ᴀʀɪꜱᴇᴅ ᴏɴ:* ${new Date(_0x44f98c.created_at).toLocaleDateString()}
-  *🐉 ʀᴇᴘᴏ:* _https://github.com/Phantom-kin/King_Phantom_
-  *🐉 ꜱᴄᴀɴ:* _${scan}_ ${Config.caption ? `\n\n${Config.caption}` : ""}
+   *🐉 ꜱᴛᴀʀꜱ: ${_0x44f98c.stargazers_count} stars
+   *🐉 ꜰᴏʀᴋꜱ: ${_0x44f98c.forks_count} forks
+   *🐉 ᴀᴜᴛʜᴏʀ: 𝙋𝙃𝘼𝙉𝙏𝙊𝙈 
+   *🐉 ᴀʀɪꜱᴇᴅ ᴏɴ: ${new Date(_0x44f98c.created_at).toLocaleDateString()}
+   *🐉 ʀᴇᴘᴏ: _https://github.com/Phantom-kin/King_Phantom_
+   *🐉 ꜱᴄᴀɴ: _${scan}_ ${Config.caption ? `\n\n${Config.caption}` : ""}
     `).trim();
 
     return await _0x45da98.sendUi(_0x45da98.jid, { caption: _0x1c73f9 });
