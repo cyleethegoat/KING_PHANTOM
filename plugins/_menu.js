@@ -50,17 +50,15 @@ astro_patch.smd({
     menuContent += ┊ `*Uptime*: ${runtime(process.uptime())}\n`;
     menuContent += ┊ `*Date*: ${currentDate}\n`;
     menuContent += ┊ `*THANKS TO*: BARAKA BEGA*\n`;
-    menuContent += ┊
-    menuContent += ┊ king-Phantom 👻 
     menuContent += readmore + "\n\n"; // Adding readmore before commands
 
     // List commands by category
     for (const category in commandCategories) {
-      menuContent += `${tiny(category)} ╭═════════════⊷❍\n`; // Decorative line with category inside
+      menuContent += `${tiny(category)} ╭════════════⊷❍\n`; // Decorative line with category inside
       commandCategories[category].forEach(cmd => {
         menuContent += `┊❍ ${fancytext(cmd, 1)}\n`; // Changed emoji here
       });
-      menuContent += `Continue \n${readmore}\n\n`; // Adding readmore with 👇 after each category
+      menuContent += `Continue\n${readmore}\n\n`; // Adding readmore with 👇 after each category
     }
 
     // Prepare the final message content
