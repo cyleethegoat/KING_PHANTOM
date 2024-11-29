@@ -26,15 +26,15 @@
 
 ***
 
-#### DEPLOY TO HEROKU 
-**1. If You Don't Have An Account On Heroku**
+#### DEPLOY ON PANEL/BOT HOSTING 
+**1. If You Don't Have An Account On PANEL**
     <br>
-<p align="center"><a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://signup.bothosting.com">
+ <img src="https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=bothosting" width="220" height="38.45"/></a></p>
 
-**2. If You Have a Heroku Account**
+**2. If You Have a panel/bothosting Account**
     <br>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Phantom-kin/KING_PHANTOM"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.bothosting.com/new?template=https://github.com/Phantom-kin/KING_PHANTOM"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=bothosting" width="220" height="38.45"/></a></p>
 
 
 ***
